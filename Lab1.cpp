@@ -4,13 +4,12 @@ using namespace std;
 int main()
 {
     int x=4;
-    if(x%3 == 2)
+    while(x%3 != 2)
     {
         cout << x;
-        x +=3;
-    }else{
-        cout << x*2;
+        x += 2;
     }
+    cout << x/2;
     return 0;
 
 }
