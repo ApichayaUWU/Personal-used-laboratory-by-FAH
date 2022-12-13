@@ -16,9 +16,7 @@ double term2(double t)
 
 double complexFormula(double x)
 {
-    double result;
-    result = term1(x)+term2(x);
-    return result;
+    return term1(x)+term2(x);
 
 }
 
