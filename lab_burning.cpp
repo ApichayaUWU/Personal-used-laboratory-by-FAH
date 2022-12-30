@@ -3,10 +3,10 @@ using namespace std;
 
 int main()
 {
-    int p , prev ;
-    double sl , sm , s ,q;
-    double presm;
-    double  l , m; // dif = delta post - previous // d = 100 - post position
+    int p , prev ; // position and previous position
+    double  l , m; // l = ระยะจุดถึงปลายด้านขวา , m = ระยะระหว่างจุด2จุด
+    double s, sl , sm , q; // s = second , sl = secondที่คิดจาก l , sm = secondที่คิดจาก m 
+    double presm; // presm = previous sm
     cout << "Input the burner location: ";
     cin >> p;
     
